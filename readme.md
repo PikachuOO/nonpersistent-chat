@@ -75,6 +75,7 @@ Welcome, seas !
 _________________________________________________
 
 TERMINAL 2
+```
 $ python client.py localhost 6066 localhost 6067
 >Username: seas
 >Password: asdf
@@ -91,43 +92,64 @@ seas is suspended for another 19.9206991196 seconds.
 >Username: seas
 >Password: summerisover
 Welcome, seas !
+```
 
 TERMINAL 3
+```
 $ python client.py localhost 6066 localhost 6068
 >Username: google
 >Password: hasglasses
 Welcome, google !
+```
 
 TERMINAL 2
+```
 google has logged on.
+```
 
 TERMINAL 3
+```
 >logout
+```
 
 TERMINAL 2
+```
 google is offline.
+```
 
 TERMINAL 4
+```
 $ python client.py localhost 6066 localhost 6069
 >Username: seas
 >Password: summerisover
 Welcome, seas !
+```
 
 TERMINAL 2
+```
 Logged on different location!
+```
 _______________________________________________
 
 TERMINAL 1 (client, username: seas)
+```
 >getaddress google
 Request has been sent.
+```
 
 TERMINAL 2 (client, username: google)
+```
 Request: seas wants your address. [allow seas] to accept.
 >allow seas
+```
 
 TERMINAL 1
+```
 You can now privately message google
 private google Hello.
+```
 
 TERMINAL 2
+```
 <seas>: Hello.
+```
