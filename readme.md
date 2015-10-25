@@ -61,14 +61,17 @@ In addition, P2P privacy/consent and Guaranteed Message Delivery have been imple
 
 ## sample commands
 TERMINAL 1
+```
 $ python server.py localhost 6066
+```
 
 TERMINAL 2
+```
 $ python client.py localhost 6066 localhost 6067
 >Username: seas
 >Password: summerisover
 Welcome, seas !
-
+```
 _________________________________________________
 
 TERMINAL 2
